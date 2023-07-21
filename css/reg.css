@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+.bodyd{
+
+    background-color: hsl(0, 100%, 74%); 
+    background-image: url(../img/reg.jpg);
+    background-blend-mode: multiply;
+    padding-bottom: 6rem;
+}
+.container{
+    color: white;
+    flex-direction: row;
+    display: flex;
+ }  
+
+.second{
+    margin-top: 0.6rem;
+    margin-left: 2rem;
+    width: 35%;
+}
+.code{
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 12rem;
+    line-height: 2rem;
+}
+.code h1{
+    text-align: left;
+}
+
+.sibling{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 0.7rem;
+    padding: 1px;
+    text-align: center;
+
+}
+.formm{
+    background-color: white;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 90%;
+    text-align: center;
+    border-radius: 0.7rem;
+}
+input{
+    padding-left: 1rem;
+    width: 80%;
+    height: 40px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0.6rem;
+    margin-bottom: 0.8rem;
+}
+.subb{
+    background-color: hsl(154, 59%, 51%);
+    width: 80%;
+    border-color: hsl(154, 59%, 51%);
+    box-shadow: none;
+    height: 50px;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+.link{
+    color: red;
+    text-decoration: none;
+}
+.small{
+color:wheat;
+font-size: small;
+font-weight: 400;
+}
+@media only screen and (max-width:760px) {
+    .bodyd{
+        background-image: url(../img/reg.jpg);
+        background-color: hsl(0, 100%, 74%); 
+        background-size: cover;
+        padding-bottom: 8rem;
+    }
+    .container{
+    display: flex;
+    flex-direction: column;   
+    }
+    .code
+    {
+        padding-left: 2rem;
+        margin: auto;
+        
+    }
+.second{
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    height: 500px;
+}
+
+.subb{
+    width: 300px;
+}
+}
+
