@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*
+{
+padding: 0;
+margin: 0;
+}
+@media screen and (min-width:768px){
+
+.container {
+    width: 100%;
+}
+.mobile-content{
+    display: none;
+}
+.main-header{
+    position: relative;
+
+}
+.main-header nav {
+    position: absolute;
+
+}
+.fa-bars {
+    display: none;
+}
+.sneak {
+    margin-left: 2rem;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+.dropdown .sneak{
+    display: inline-flex;
+    margin-top: 2rem;
+}
+.dropdown-content a{
+margin-right: 25px;
+color: white;
+font-weight: 700;
+text-decoration: none;
+}
+.column {
+    display: flex;
+
+    /* gap: 100px; */
+    /* grid-template-columns: 1.2fr 1fr ;   */
+}
+.column2 {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 0.2rem; */
+    /* gap: 100px; */
+    /* grid-template-columns: 1.2fr 1fr 1fr;    */
+}
+.con1 {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+.con3 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.con2 {
+    margin-left: 1.9rem;
+    margin-right: 2.4rem;
+    margin-top: 1.3rem;
+
+}
+.shop-now {
+    margin-top: 1rem;
+}
+.fa-long-arrow-right {
+    margin-right: 15px;
+}
+.arrow {
+    display: flex;
+    width: 26%;
+    margin-top: 3.35rem;
+    padding: 22px;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.fa-chevron-left {
+    color: white;
+    font-weight: 100;
+}
+.fa-chevron-right {
+    color: white;
+    font-weight: 100;
+}
+p {
+    font-size: 17px;
+        line-height: 22px;
+        font-weight: 400;
+        color: silver;;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: poppins;
+}
+h2 {
+    margin-bottom: 0.7rem;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: poppins;
+    word-spacing: 1rem;
+}
+}
+@media screen and (max-width: 768px) {
+    .container{
+        display: none;
+    }
+    .mobile-content{
+        width: 100%;
+
+    } 
+    
+    .mobile-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-column{
+        position: absolute;
+    }
+    .mobile-direction{
+        display: flex;
+        margin-left: 11.4rem;
+        position: absolute;
+        margin-top: 10.4rem;
+        border: 2px solid black;
+        justify-content: space-between;
+        width: 16.9%;
+        background-color: black;
+        padding: 15px;
+    }
+    .fa-chevron-left{
+        color: white;
+    }
+    .fa-chevron-right{
+        color: white;
+    }
+    .fa-bars{
+        color: white;
+        position: absolute;
+        top: 35px;
+        left: 29px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .roomy-container {
+    position: relative;
+    display: inline-block;
+    }
+    .roomy{
+        position: absolute;
+        top: 10px;
+        left: 130px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+    .discovery{
+        padding-left: 2rem;
+        padding-top: 16rem;
+        padding-bottom: 3.5rem;
+    }
+    .discovery h3{
+        padding-bottom: 1rem;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .discovery p{
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 500;
+        color: silver;
+    }
+    .discovery .shop-now{
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        letter-spacing: 0.7rem;
+        font-weight: 700;
+    }
+    .m-about{
+        padding-top: 2.5rem;
+        padding-left: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    .m-about h3{
+        font-weight: 500;
+        font-size: 25px;
+        padding-bottom: 1rem;
+    }
+    .m-about p{
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 400;
+        color: silver;
+        padding-bottom: 1rem;
+    }
+}

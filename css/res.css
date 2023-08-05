@@ -115,18 +115,34 @@ font-size: x-large;
         padding-top: 2rem;
         
     }
-.second{
-    margin: auto;
-    width: 500px;
-    text-align: center;
-    height: 500px;
-    margin-right: 20rem;
-    padding-top: 1rem;
+/* .second{ */
+    /* margin: auto; */
+    /* width: 500px; */
+    /* text-align: center; */
+    /* height: 500px; */
+    /* margin-right: 20rem; */
+    /* padding-top: 1rem; */
     /* padding-left: 1rem; */
-}
+/* } */
 
 .subb{
-    width: 200px;
+    /* width: 200px; */
+    /* padding-left: 5rem; */
+        background-color: white;
+        width: 75%;
+        border-color: white;
+        box-shadow: none;
+        height: 50px;
+        color: magenta;
+        font-size: small;
+        font-weight: 500;
+        border-radius: 2rem;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+    
+}
+.input {
+    margin-right: 13rem;
 }
 .passive img {
     width: 83%;
@@ -138,13 +154,9 @@ font-size: x-large;
 }
 .active {
     padding-left: 1rem;
-}
-sibling p {
-
-}
-        
+}       
 .icons{
-padding-right: 10rem;
+padding-left: 6rem;
 }
 }
 
