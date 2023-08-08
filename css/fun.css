@@ -25,7 +25,7 @@ margin: 0;
     display: none;
 }
 .sneak {
-    margin-left: 2rem;
+    margin-left: 6rem;
     font-weight: 900;
     font-size: 25px;
 
@@ -33,6 +33,7 @@ margin: 0;
 .dropdown .sneak{
     display: inline-flex;
     margin-top: 2rem;
+    margin-right: 2.5rem;
 }
 .dropdown-content a{
 margin-right: 25px;
@@ -78,7 +79,7 @@ text-decoration: none;
 .arrow {
     display: flex;
     width: 26%;
-    margin-top: 3.35rem;
+    margin-top: 4.9rem;
     padding: 22px;
     border: 2px solid black;
     justify-content: space-between;
@@ -130,9 +131,9 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        margin-left: 11.4rem;
+        margin-left: 22.35rem;
         position: absolute;
-        margin-top: 10.4rem;
+        margin-top: 12.3rem;
         border: 2px solid black;
         justify-content: space-between;
         width: 16.9%;
@@ -149,7 +150,7 @@ h2 {
         color: white;
         position: absolute;
         top: 35px;
-        left: 29px;
+        left: 68px;
         font-size: 25px;
         font-weight: 600;
     }
@@ -160,7 +161,7 @@ h2 {
     .roomy{
         position: absolute;
         top: 10px;
-        left: 130px;
+        left: 170px;
         padding: 5px;
         font-size: 30px;
         font-weight: 600;
@@ -171,11 +172,13 @@ h2 {
         padding-left: 2rem;
         padding-top: 16rem;
         padding-bottom: 3.5rem;
+        margin: 40px 0 0 50px;
     }
     .discovery h3{
         padding-bottom: 1rem;
         font-size: 30px;
         font-weight: 900;
+        
     }
     .discovery p{
         font-size: 17px;
@@ -190,9 +193,10 @@ h2 {
         font-weight: 700;
     }
     .m-about{
-        padding-top: 2.5rem;
+        padding-top: 1.2rem;
         padding-left: 2rem;
         padding-bottom: 2.5rem;
+         margin: 40px 0 0 50px;
     }
     .m-about h3{
         font-weight: 500;
