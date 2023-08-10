@@ -325,8 +325,8 @@ font-weight: bold;
 
     .logo-box h3{
         position: relative;
-        left: -35px;
-        top: -3.5px;
+        left: -50px;
+       top : 4px;
     }
 
     .navigation .nav-left .btn-active-toggle{
