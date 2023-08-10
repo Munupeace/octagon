@@ -5,7 +5,7 @@
 padding: 0;
 margin: 0;
 }
-@media screen and (min-width:768px){
+@media screen and (min-width:760px){
 
 .container {
     width: 100%;
@@ -131,14 +131,14 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        margin-left: 22.35rem;
+        margin-left: 14.9rem;
         position: absolute;
-        margin-top: 12.3rem;
+        margin-top: 14rem;
         border: 2px solid black;
         justify-content: space-between;
-        width: 16.9%;
+        width: 15%;
         background-color: black;
-        padding: 15px;
+        padding: 20px;
     }
     .fa-chevron-left{
         color: white;
@@ -170,9 +170,9 @@ h2 {
     }
     .discovery{
         padding-left: 2rem;
-        padding-top: 16rem;
+        padding-top: 19rem;
         padding-bottom: 3.5rem;
-        margin: 40px 0 0 50px;
+        /* margin: 40px 0 0 50px; */
     }
     .discovery h3{
         padding-bottom: 1rem;
@@ -193,10 +193,10 @@ h2 {
         font-weight: 700;
     }
     .m-about{
-        padding-top: 1.2rem;
+        padding-top: 2.2rem;
         padding-left: 2rem;
         padding-bottom: 2.5rem;
-         margin: 40px 0 0 50px;
+         /* margin: 40px 0 0 50px; */
     }
     .m-about h3{
         font-weight: 500;
