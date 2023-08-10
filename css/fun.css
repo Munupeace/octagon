@@ -131,9 +131,9 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        margin-left: 14.9rem;
+        margin-left: 15.72rem;
         position: absolute;
-        margin-top: 14rem;
+        margin-top: 12.89rem;
         border: 2px solid black;
         justify-content: space-between;
         width: 15%;
@@ -188,7 +188,7 @@ h2 {
     }
     .discovery .shop-now{
         padding-top: 1.5rem;
-        padding-bottom: 1rem;
+        padding-bottom: 1.3rem;
         letter-spacing: 0.7rem;
         font-weight: 700;
     }
