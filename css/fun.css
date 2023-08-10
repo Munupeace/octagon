@@ -139,6 +139,7 @@ h2 {
         width: 15%;
         background-color: black;
         padding: 20px;
+        padding-right: 1rem;
     }
     .fa-chevron-left{
         color: white;
