@@ -119,7 +119,6 @@ h2 {
     .mobile-content{
         width: 100%;
         height: 100%;
-        overflow: hidden;
 
     } 
     
@@ -133,7 +132,7 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        margin-left: 19rem;
+        margin-left: 19.8rem;
         position: absolute;
         margin-top: 12.89rem;
         border: 2px solid black;
