@@ -66,8 +66,9 @@ margin-left: 20%;
     color: hsl(219, 9%, 45%);
 }
 .logo-box h3{
-    margin-top: 0.4rem;
-    margin-left: 4rem;
+    position: relative;
+    top: -7px;
+    margin-left: 3.5rem;
     font-size: 20px;
 }
 /* end of header styles */
@@ -322,8 +323,10 @@ font-weight: bold;
         margin-bottom: 60px;
     }
 
-    .logo-box{
-        margin-top: 7px;
+    .logo-box h3{
+        position: relative;
+        left: -35px;
+        top: -3.5px;
     }
 
     .navigation .nav-left .btn-active-toggle{
@@ -370,7 +373,7 @@ font-weight: bold;
 
     .hero-right{
         margin: 0;
-        padding: 20px 60px 0 60px;
+        padding: 12px 60px 0 50px;
     }
 
     .hero-right .headings h4{
@@ -394,7 +397,7 @@ font-weight: bold;
     
     /* the margin right may affect the responsiveness */
     .description .price .old-price{
-        margin: 10px 0 0 35%;
+        margin: 5px 0 0 30%;
     }
 
     .hero-right .buttons{
