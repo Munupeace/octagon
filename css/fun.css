@@ -131,7 +131,7 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        margin-left: 18.17rem;
+        margin-left: 19rem;
         position: absolute;
         margin-top: 12.89rem;
         border: 2px solid black;
@@ -151,7 +151,7 @@ h2 {
         color: white;
         position: absolute;
         top: 35px;
-        left: 68px;
+        left: 50px;
         font-size: 25px;
         font-weight: 600;
     }
@@ -162,7 +162,7 @@ h2 {
     .roomy{
         position: absolute;
         top: 10px;
-        left: 170px;
+        left: 145px;
         padding: 5px;
         font-size: 30px;
         font-weight: 600;
