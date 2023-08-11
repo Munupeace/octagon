@@ -79,7 +79,7 @@ text-decoration: none;
 .arrow {
     display: flex;
     width: 26%;
-    margin-top: 4.9rem;
+    margin-top: 8rem;
     padding: 22px;
     border: 2px solid black;
     justify-content: space-between;
@@ -162,7 +162,7 @@ h2 {
     }
     .roomy{
         position: absolute;
-        top: 10px;
+        top: 9.5px;
         left: 145px;
         padding: 5px;
         font-size: 30px;

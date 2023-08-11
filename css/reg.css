@@ -3,7 +3,7 @@
 .bodyd{
 
     background-color: hsl(0, 100%, 74%); 
-    background-image: url(../img/reg.jpg);
+    background-image: url(../img/regdesk.jpg);
     background-blend-mode: multiply;
     padding-bottom: 6rem;
 }
@@ -74,7 +74,7 @@ font-weight: 400;
 }
 @media only screen and (max-width:760px) {
     .bodyd{
-        background-image: url(../img/reg.jpg);
+        background-image: url(../img/regmob.jpg);
         background-color: hsl(0, 100%, 74%); 
         background-size: cover;
         padding-bottom: 8rem;
