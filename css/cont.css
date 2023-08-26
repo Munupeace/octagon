@@ -1,103 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
 *
+
 {
 padding: 0;
- margin: 0;
+margin: 0;
+text-decoration: none;
+box-sizing: border-box;
+font-family: poppins;
 }
-.word{
-    display: inline-block;
-    padding-right: 4rem;
+
+.word .word-1 {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+    width: 73%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    padding: 20px;
 }
-.word-1{
-    background-color: blueviolet;
-    margin-left: 3rem;
-    margin-top: 2rem;
+
+.word .word-1 .sub1 {
+    display: flex;
+}
+
+.word .word-1 h2 {
+    position: relative;
+    right: -30px;
+}
+
+.word .word-1 h4 {
+    position: relative;
+    right: -80px;
+}
+
+.word .word-1 .man1 {
+    border-radius: 50%;
+}
+
+.word .word-1 h3 {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    line-height: 1.7rem;
+
+}
+
+.word .word-1 p {
+    line-height: 1.7rem;
+}
+
+.word .word-1-2 {
+    display: flex;
+}
+
+.word .word-2 {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    width: 37%;
+    border-radius: 0.5rem;
+    padding: 18px 18px 0 18px;
+    background-color: hsl(0, 0%, 81%);
+}
+
+.word .word-2 .sub2 {
+    display: flex;
+}
+
+.word .word-2 .man2 {
+    border-radius: 50%;
+}
+
+.word .word-2 h2 {
+    position: relative;
+    right: -30px;
+}
+
+.word .word-2 h4 {
+    /* position: relative; */
+    /* left: 5rem; */
+    
+
+
+}
+
+.word .word-2 h3{
+margin-top: 0.7rem;
+}
+
+.word .word-2 p {
+    line-height: 1.7rem;
+}
+
+
+
+
+.word .word-3-4 {
+    display: flex;
     margin-bottom: 1rem;
-    border-radius: 7px;
-    border: solid white;
-    color: white;
-}
-.word-2{
-    background-color: gray;
-    margin-bottom: 2rem;
-    margin-left: 3rem;
-    border-radius: 7px;
-    color: white;
-}
-.word-1 .h1{
-    text-align: center;
-    color: white;
-    font-size: x-large;
-    font-weight: 700;
 }
 
+.word .word-3{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    width: 26%;
+    border-radius: 0.5rem;
+    padding: 20px 20px 20px 20px;
+    background-color: hsl(0, 0%, 81%);
+}
 
-
-
-.container{
-    flex-direction: row;
+.word .word-3 .sub3 {
     display: flex;
-    margin-left: 3rem;
-    margin-top: 6rem;
-    margin-right: 15rem;
-    margin-bottom: 5rem;
- }
- .first {
-    margin-top: 3rem;
- }
- 
- .sneaker1{
-    border-radius: 9px;
- }
- .sneakers {
-    border-radius: 6px;
-    padding-top: 3rem;
-    justify-content: space-between;
-    padding: 6px;
- }
- .sibling{
-    margin-left: 5rem;
-    margin-top: 4rem;
- }
- .sibling h5{
-    padding-bottom: 5px;
-    color: orange;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
- }
-.sibling h1 {
-   padding-bottom: 10px;
-   padding-top: 6px;
-   font-weight: 900;
-   color: black;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
-.sibling p {
-    color: silver;
-    padding-bottom: 10px;
-    text-decoration: none;
+
+.word .word-3 h2 {
+    position: relative;
+    right: -17px;
 }
-.h3 {
-    padding-left: 2rem;
+
+.word .word-3 h4 {
+    position: relative;
+    right: -60px;
+    margin-top: 0.5rem;
     padding-bottom: 2rem;
-}
-span {
-    padding-top: 2rem;
-    padding-bottom: 5rem;
-}
-input{
-  padding: 1rem; 
-  color: white; 
-  font-weight: 700;
-  background-color: orange;
-  font-family: sans-serif;
-  align-items: center;
+    
+    
 }
 
-.bell{
+.word .word-3 h3 {
+    position: relative;
+    top: -10px;
+}
+.word .word-3 .man3 {
+    border-radius: 50%;
+}
+
+.word .word-3 p {
+    line-height: 1.7rem;
+}
+
+
+
+
+
+
+.word .word-4 {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    width: 73%;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    background-color: hsl(219, 29%, 14%);
+
+}
+
+.word .word-4 .sub4{
+display: flex;
+}
+
+.word .word-4 .man4 {
+    border-radius: 50%;
+}
+
+.word .word-4 h2 {
+    position: relative;
+    right: -17px;
+}
+
+.word .word-4 h4 {
+margin-bottom: 1rem;   
+}
+
+.word .word-3 h3 {
+    margin-bottom: 1rem;
+    font-weight: 800;
+
+}
+
+.word .word-4 p {
+    line-height: 1.7rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.word .word-5 {
+    background-color: hsl(0, 0%, 81%);
+    color: hsl(0, 0%, 100%);
+    width: 97%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    padding: 20px;
+}
+
+.word .word-5 .sub5 {
     display: flex;
+
+}
+
+.word .word-5 .sub5 .man5 {
+    border-radius: 50%;
+}
+
+.word .word-5 h2 {
+    position: relative;
+    right: -17px;
+}
+
+.word .word-5 h3 {
+    margin-bottom: 1rem;
+    font-weight: 800;
+
+}
+
+.word .word-5 p {
+    line-height: 1.7rem;
+    margin-top: 1rem;
+    font-weight: 400;
 }
 
 
+@media screen and (max-width: 760px) {
+    .word {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .word-1-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .word-3-4{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .word .word-2 {
+        width: 73%;
+        margin-bottom: 1rem;
+    }
+
+    .word .word-3 {
+        width: 73%;
+        margin-bottom: 1rem;
+    }
+    
+    .word .word-4 {
+        width: 73%;
+        margin-bottom: 1rem;
+    }
+
+    .word .word-5 {
+        width: 73%;
+    }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

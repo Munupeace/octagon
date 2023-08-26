@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../staymedia"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "octagon"
+    }
+}
