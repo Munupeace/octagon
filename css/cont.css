@@ -240,27 +240,23 @@ margin-bottom: 1rem;
         flex-direction: column;
     }
 
-    .word .word-1 {
-        width: 80%;
-    }
-    
     .word .word-2 {
-        width: 85%;
+        width: 75%;
         margin-bottom: 1rem;
     }
 
     .word .word-3 {
-        width: 85%;
+        width: 75%;
         margin-bottom: 1rem;
     }
     
     .word .word-4 {
-        width: 85%;
+        width: 75%;
         margin-bottom: 1rem;
     }
 
     .word .word-5 {
-        width: 85%;
+        width: 75%;
     }
 
 

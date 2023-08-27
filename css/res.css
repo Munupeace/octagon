@@ -80,22 +80,21 @@ margin: 0;
     flex-direction: column;
 }
 .first {
-    position: relative;
-    top: -10px;
+    
 }
 .passive img {
     width: 330px;
 }
 .active img{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .second {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .icons {
     position: relative;
     left: -80px;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
 }
 .subb {
     width: 75%;
