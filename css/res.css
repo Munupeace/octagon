@@ -79,9 +79,7 @@ margin: 0;
     display: flex;
     flex-direction: column;
 }
-.first {
-    
-}
+
 .passive img {
     width: 330px;
 }
@@ -94,10 +92,10 @@ margin: 0;
 .icons {
     position: relative;
     left: -80px;
-    /* margin-bottom: 4rem; */
+    margin-bottom: 3rem;
 }
 .subb {
-    width: 75%;
+    width: 60%;
 }
 
 

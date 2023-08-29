@@ -50,6 +50,7 @@ text-decoration: none;
 .column2 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1rem;
     /* margin-top: 0.2rem; */
     /* gap: 100px; */
     /* grid-template-columns: 1.2fr 1fr 1fr;    */
@@ -79,7 +80,7 @@ text-decoration: none;
 .arrow {
     display: flex;
     width: 26%;
-    margin-top: 8rem;
+    margin-top: 9.3rem;
     padding: 22px;
     border: 2px solid black;
     justify-content: space-between;

@@ -155,8 +155,8 @@ a {
 
 .card-2 {
     position: absolute;
-    left: 30rem;
-    top: 67px;
+    left: 35rem;
+    top: 75px;
     background-color: whitesmoke;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
     padding: 20px 15px 30px 20px;
@@ -277,7 +277,7 @@ margin-right: 10px;
 
   .card-3 {
     position: absolute;
-    left: 30rem;
+    left: 35rem;
     top: 310px;
     background-color: whitesmoke;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
@@ -315,7 +315,7 @@ margin-right: 10px;
 
 }
 .card-3 .phonebill .left-1 .fa{
-    font-size: 22px;
+    font-size: 19px;
     color: greenyellow;
 }
 
@@ -348,8 +348,9 @@ border-radius: 2rem;
 background-color: darkred;
 }
 
-.card-3 .internetbill  .fa .dot {
-    color:brown
+.card-3 .internetbill  .left-2 .fa {
+    font-size: 19px;
+    color:darkred;
 }
 
 .card-3 .internetbill .left-2 h3 {
@@ -378,6 +379,11 @@ background-color: darkred;
     margin-left: 1rem;
 }
 
+.card-3 .houserent .left-3 .fa {
+    font-size: 19px;
+    color:greenyellow;
+}
+
 
 
 .card-3 .incometax .left-4 {
@@ -399,16 +405,24 @@ background-color: darkred;
     margin-left: 1rem;
 }
 
+.card-3 .incometax  .left-4 .fa {
+    font-size: 19px;
+    color: greenyellow;
+}
+
+
 .mobile-device {
     display: none;
 }
 
+.allcard-container {
+    display: none;
+}
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 600px) {
 
-    .card2-3{
-        display: flex;
-        flex-direction: column;
+    .all-card {
+        display: none;
     }
 }
