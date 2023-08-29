@@ -81,7 +81,7 @@ margin: 0;
 }
 
 .passive img {
-    width: 330px;
+    width: 300px;
 }
 .active img{
     margin-bottom: 1rem;
@@ -91,11 +91,11 @@ margin: 0;
 }
 .icons {
     position: relative;
-    left: -80px;
+    left: -150px;
     margin-bottom: 3rem;
 }
 .subb {
-    width: 60%;
+    width: 65%;
 }
 
 
