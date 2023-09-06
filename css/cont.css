@@ -2,12 +2,14 @@
 *
 
 {
-padding: 0;
-margin: 0;
-text-decoration: none;
-box-sizing: border-box;
-font-family: poppins;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: poppins;
 }
+
+/* @media screen and (min-width:760px){ */
 
 .word .word-1 {
     background-color: hsl(263, 55%, 52%);
@@ -231,6 +233,8 @@ padding-bottom: 5px;
     margin-top: 1rem;
     font-weight: 400;
 }
+
+/* } */
 
 
 @media screen and (max-width: 760px) {

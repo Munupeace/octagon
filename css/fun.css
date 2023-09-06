@@ -25,7 +25,7 @@ margin: 0;
     display: none;
 }
 .sneak {
-    margin-left: 6rem;
+    margin-left: 4rem;
     font-weight: 900;
     font-size: 25px;
 
@@ -33,7 +33,7 @@ margin: 0;
 .dropdown .sneak{
     display: inline-flex;
     margin-top: 2rem;
-    margin-right: 2.5rem;
+    margin-right: 2rem;
 }
 .dropdown-content a{
 margin-right: 25px;
@@ -48,15 +48,17 @@ text-decoration: none;
     /* grid-template-columns: 1.2fr 1fr ;   */
 }
 .column2 {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    /* margin-top: 0.2rem; */
+    top: -5px;
+    margin-bottom: 3.5rem;
     /* gap: 100px; */
     /* grid-template-columns: 1.2fr 1fr 1fr;    */
 }
 .con1 {
-    margin-left: 3rem;
-    margin-top: 1.5rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
 }
 .con3 {
     display: flex;
@@ -65,22 +67,24 @@ text-decoration: none;
 }
 
 .con2 {
-    margin-left: 1.9rem;
+    margin-left: 2.3rem;
     margin-right: 2.4rem;
-    margin-top: 1.3rem;
+    padding-top: 3rem;
 
 }
 .shop-now {
-    margin-top: 1rem;
+    margin-top: 1.2rem;
+    letter-spacing: 1rem;
 }
 .fa-long-arrow-right {
     margin-right: 15px;
 }
 .arrow {
     display: flex;
-    width: 26%;
-    margin-top: 8rem;
-    padding: 22px;
+    width: 15%;
+    position: relative;
+    bottom: -70px;
+    padding: 18px;
     border: 2px solid black;
     justify-content: space-between;
     background-color: black;
@@ -88,14 +92,14 @@ text-decoration: none;
 }
 .fa-chevron-left {
     color: white;
-    font-weight: 100;
+    font-weight: 50;
 }
 .fa-chevron-right {
     color: white;
-    font-weight: 100;
+    font-weight: 50;
 }
 p {
-    font-size: 17px;
+    font-size: 15px;
         line-height: 22px;
         font-weight: 400;
         color: silver;;
@@ -104,11 +108,12 @@ h1 {
     font-size: 30px;
     font-weight: 900;
     font-family: poppins;
+    margin-bottom: 1rem;
 }
 h2 {
-    margin-bottom: 0.7rem;
-    font-size: 22px;
-    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
     font-family: poppins;
     word-spacing: 1rem;
 }
@@ -134,7 +139,7 @@ h2 {
         display: flex;
         margin-left: 19rem;
         position: absolute;
-        margin-top: 12.89rem;
+        margin-top: 16rem;
         border: 2px solid black;
         justify-content: space-between;
         width: 15%;
@@ -172,7 +177,7 @@ h2 {
     }
     .discovery{
         padding-left: 2rem;
-        padding-top: 19rem;
+        padding-top: 22rem;
         padding-bottom: 3.5rem;
         /* margin: 40px 0 0 50px; */
     }
