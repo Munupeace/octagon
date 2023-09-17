@@ -51,8 +51,8 @@ text-decoration: none;
     position: relative;
     display: flex;
     justify-content: space-between;
-    top: -5px;
-    margin-bottom: 3.5rem;
+    top: -4px;
+    margin-bottom: 3rem;
     /* gap: 100px; */
     /* grid-template-columns: 1.2fr 1fr 1fr;    */
 }
@@ -81,9 +81,9 @@ text-decoration: none;
 }
 .arrow {
     display: flex;
-    width: 15%;
+    width: 20%;
     position: relative;
-    bottom: -70px;
+    bottom: -69.2px;
     padding: 18px;
     border: 2px solid black;
     justify-content: space-between;
@@ -137,29 +137,32 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        margin-left: 19rem;
+        margin-left: 19.3rem;
         position: absolute;
-        margin-top: 16rem;
+        margin-top: 20.41rem;
         border: 2px solid black;
         justify-content: space-between;
-        width: 15%;
+        width: 17%;
         background-color: black;
-        padding: 20px;
-        padding-right: 1rem;
+        padding: 10px;
+        /* padding-right: 1rem; */
     }
     .fa-chevron-left{
         color: white;
+        font-weight: 100;
     }
     .fa-chevron-right{
         color: white;
+        font-weight: 100;
     }
     .fa-bars{
         color: white;
         position: absolute;
-        top: 35px;
-        left: 50px;
+        top: 33px;
+        left: 35px;
         font-size: 25px;
-        font-weight: 600;
+        font-weight: 300;
+        z-index: 1;
     }
     .roomy-container {
     position: relative;
@@ -167,19 +170,20 @@ h2 {
     }
     .roomy{
         position: absolute;
-        top: 9.5px;
-        left: 145px;
+        top: 6px;
+        left: 170px;
         padding: 5px;
         font-size: 30px;
-        font-weight: 600;
+        font-weight: 300;
         color: white;
         text-decoration: none;
+        z-index: 1;
     }
     .discovery{
         padding-left: 2rem;
         padding-top: 22rem;
-        padding-bottom: 3.5rem;
-        /* margin: 40px 0 0 50px; */
+        padding-bottom: 3rem;
+        margin-top: 3rem;
     }
     .discovery h3{
         padding-bottom: 1rem;
@@ -194,7 +198,7 @@ h2 {
         color: silver;
     }
     .discovery .shop-now{
-        padding-top: 1.5rem;
+        padding-top: 1.8rem;
         padding-bottom: 1.3rem;
         letter-spacing: 0.7rem;
         font-weight: 700;
@@ -202,12 +206,12 @@ h2 {
     .m-about{
         padding-top: 2.2rem;
         padding-left: 2rem;
-        padding-bottom: 2.5rem;
+        padding-bottom: 2rem;
          /* margin: 40px 0 0 50px; */
     }
     .m-about h3{
-        font-weight: 500;
-        font-size: 25px;
+        font-weight: 600;
+        font-size: 19px;
         padding-bottom: 1rem;
     }
     .m-about p{
@@ -216,5 +220,10 @@ h2 {
         font-weight: 400;
         color: silver;
         padding-bottom: 1rem;
+    }
+    .m-room {
+        max-height: fit-content;
+        position: relative;
+        top: -20px;
     }
 }
