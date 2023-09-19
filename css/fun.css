@@ -5,7 +5,7 @@
 padding: 0;
 margin: 0;
 }
-@media screen and (min-width:760px){
+@media screen and (min-width:1024px){
 
 .container {
     width: 100%;
@@ -83,7 +83,7 @@ text-decoration: none;
     display: flex;
     width: 20%;
     position: relative;
-    bottom: -69.2px;
+    bottom: -90px;
     padding: 18px;
     border: 2px solid black;
     justify-content: space-between;
@@ -137,9 +137,9 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        margin-left: 19.3rem;
+        left: -28px;
         position: absolute;
-        margin-top: 20.41rem;
+        top: -70.7px;
         border: 2px solid black;
         justify-content: space-between;
         width: 17%;
@@ -181,12 +181,12 @@ h2 {
     }
     .discovery{
         padding-left: 2rem;
-        padding-top: 22rem;
+        padding-top: 19rem;
         padding-bottom: 3rem;
         margin-top: 3rem;
     }
     .discovery h3{
-        padding-bottom: 1rem;
+        padding-bottom: 1.2rem;
         font-size: 30px;
         font-weight: 900;
         
@@ -199,7 +199,7 @@ h2 {
     }
     .discovery .shop-now{
         padding-top: 1.8rem;
-        padding-bottom: 1.3rem;
+        padding-bottom: 1rem;
         letter-spacing: 0.7rem;
         font-weight: 700;
     }
@@ -226,4 +226,47 @@ h2 {
         position: relative;
         top: -20px;
     }
+
 }
+    @media screen and (max-width: 380px) {
+        .container {
+            height: fit-content;
+        }
+        .mobile-direction{
+            display: flex;
+            left: -28px;
+            position: absolute;
+            top: -70.7;
+            border: 2px solid black;
+            justify-content: space-between;
+            width: 18%;
+            background-color: black;
+            padding: 10px;
+        }    
+
+    }
+    @media screen and (max-width: 484px) {
+    .container {
+        width: 484px;
+        height: fit-content;
+    }
+
+    .mobile-direction{
+        display: flex;
+        margin-left: 19.2rem;
+        position: absolute;
+        margin-top: 20.41rem;
+        border: 2px solid black;
+        justify-content: space-between;
+        width: 17%;
+        background-color: black;
+        padding: 10px;
+    }    
+
+    }
+    @media screen and (min-width:820) {
+        .container .mobile-content{
+            display: none;
+        }
+        
+    }
