@@ -138,12 +138,12 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        left: 14.7px;
+        left: 16px;
         position: absolute;
         top: -40px;
         border: 2px solid black;
         justify-content: space-between;
-        width: 17%;
+        width: 17.3%;
         background-color: black;
         padding: 10px;
         /* padding-right: 1rem; */
@@ -238,7 +238,7 @@ h2 {
         }
         .mobile-direction{
             display: flex;
-            left: -37px;
+            left: -50px;
             position: absolute;
             top: -70.7;
             border: 2px solid black;
