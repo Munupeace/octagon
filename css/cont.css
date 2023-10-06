@@ -10,6 +10,12 @@
 }
 
 /* @media screen and (min-width:760px){ */
+    .word {
+
+        flex-wrap: wrap;
+        /* flex-basis: 100px; */
+        /* flex-grow: 1; */
+    }
 
 .word .word-1 {
     background-color: hsl(263, 55%, 52%);
@@ -20,6 +26,8 @@
     border-radius: 0.5rem;
     margin-left: 1.5rem;
     padding: 20px;
+    flex-grow: 1;
+    flex-basis: 100px;
 }
 
 .word .word-1 .sub1 {

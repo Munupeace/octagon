@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="../css/furniture.css" type="text/css">
+        <title>Document</title>
+    </head>
+    <body>
+    <div class="container">
+        <div class="column">
+            <div class="main-header">
+              <nav>
+                <div class="dropdown">
+                  <a href="javascript:void(0)" 
+                   class="drop-btn"><i class="fa fa-bars"></i></a>
+                   <div class="dropdown<-content">
+                     <div class="sneak">
+                       <a href="#" class="logo">room</a>
+                      </div>
+                     <a href="#">home</a>
+                     <a href="#">shop</a>
+                     <a href="#">about</a>
+                     <a href="#">contact</a>
+                   </div>
+                </div>
+              </nav>
+              <img src="../img/desktop-image-hero-2.jpg" alt="desk1" class="desk1" width="600" height="450">
+             </div>
+           
+            <div class="con3">
+               <div class="con1">
+                 <h1>We are available all<br>across the globe</h1>
+                 <p>With stores all over the word, it's easy for you to find furniture<br>
+                 for your home or place of business. Locally, we're in most
+                 major cities throughout the country. Find the branch nearest
+                 you using our store locator. Any questions? Don't hesitate to contact us today. </p>
+                 <div class="shop-now">
+                   <span>SHOP NOW</span>
+                   <i class="fa fa-long-arrow-right"></i>
+                 </div>
+              </div>
+              <div class="arrow">
+                <div class="left-arrow">
+                  <i class="fa fa-chevron-left"></i>
+                 </div>
+                 <div class="right-arrow">
+                  <i class="fa fa-chevron-right"></i>
+                 </div>
+              </div>
+             </div>
+          </div>
+        </div>
+        <div class="column2">
+            <div class="con">
+             <img src="../img/image-about-dark.jpg" alt="desk2" class="desk2" width="300" height="295">
+           </div>
+            <div class="con">
+              <div class="con2">
+                <h2>ABOUT OUR FURNITURE</h2>
+                <p>Our multifunctional collection blends design and functon to suit your individual taste. 
+                  Make each room unique, or pick a cohesive theme that best
+                  express your interest and what inspires you. Find the furniture pieces
+                  you need, from traditional to contemporary styles or anything in between.
+                  Product specialist are available to help you create your dream space.</p>
+              </div>
+           </div>
+           <div class="con">
+             <img src="../img/image-about-light.jpg" alt="desk3" class="desk3" width="300" height="295">
+            </div>
+          </div>
+       </div>
+       
+       <div class="mobile-content">
+         <div class="mobile-container">
+            <div class="mobile-column">
+              <div class="drop-down">
+                <div class="dropdown-content">
+                  <div class="roomy-container">
+                   <a href="#" class="roomy">room</a>
+                 </div>
+                  <div class="img-container">
+                    <i class="fa fa-bars"></i>
+                    <img src="../img/desktop-image-hero-1.jpg" alt="room-logo" class="m-room" width="401px" height="330px">
+                  </div>
+               </div>
+              </div>
+            </div>
+            <div class="mobile-direction">
+             <div class="m-prev">
+                <a href="#">
+                 <i class="fa fa-chevron-left"></i>
+                </a>
+             </div>
+             <div class="m-next">
+               <a href="#">
+                <i class="fa fa-chevron-right"></i>
+                </a>
+             </div>
+            </div>
+            <div class="discovery">
+             <h3>Discover innovative <br > ways to decorate</h3>
+              <p>We provide unmatched quality, comfort, and <br >
+              style for property owners across the country. <br >
+              Our experts combine form and function in <br >
+              bringing your vision to life. Create a room in <br >
+              your own style with our collection and make your <br >
+              property a reflection of you and what you love. <br >
+              </p>
+              <div class="shop-now">
+                <span>SHOP NOW</span>
+                <i class="fa fa-long-arrow-right"></i>
+              </div>
+            </div>
+            <img src="../img/image-about-dark.jpg" alt="m-dark" class="m-dark" width="401px" height="250px">
+           <div class="m-about">
+              <h3>ABOUT OUR FURNITURE</h3>
+              <p>Our Multifunctional collection blends design and <br >
+               function to suit your individual taste. Make each <br >
+               room unique, or pick a cohesive theme that best <br >
+               express your interests and what inspires you. <br >
+               Find the furniture pieces you need, from <br >
+               traditional to contemporary styles or anything in <br >
+               between. Product specialists are available to <br >
+               help you create your dream space.
+              </p>
+           </div>
+           <div class="m-last-image">
+             <img src="../img/image-about-light.jpg" alt="m-light" width="401px" height="250">
+           </div>
+         </div>
+        </div>
+    
+    </div>
+ </body>
+</html>
+
+
+
+*
+{
+padding: 0;
+margin: 0;
+}
+@media screen and (min-width:1024px){
+
+.container {
+    width: 100%;
+}
+.mobile-content{
+    display: none;
+}
+.main-header{
+    position: relative;
+
+}
+.main-header nav {
+    position: absolute;
+
+}
+.fa-bars {
+    display: none;
+}
+.sneak {
+    margin-left: 4rem;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+.dropdown .sneak{
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.dropdown-content a{
+margin-right: 25px;
+color: white;
+font-weight: 700;
+text-decoration: none;
+}
+.column {
+    display: flex;
+
+    /* gap: 100px; */
+    /* grid-template-columns: 1.2fr 1fr ;   */
+}
+.column2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: -4px;
+    margin-bottom: 3rem;
+    /* gap: 100px; */
+    /* grid-template-columns: 1.2fr 1fr 1fr;    */
+}
+.con1 {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.con3 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.con2 {
+    margin-left: 2.3rem;
+    margin-right: 2.4rem;
+    padding-top: 3rem;
+}
+.shop-now {
+    margin-top: 1.2rem;
+    letter-spacing: 1rem;
+}
+.fa-long-arrow-right {
+    margin-right: 15px;
+}
+.arrow {
+    display: flex;
+    width: 20%;
+    position: relative;
+    bottom: -70px;
+    padding: 18px;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.fa-chevron-left {
+    color: white;
+    font-weight: 50;
+}
+.fa-chevron-right {
+    color: white;
+    font-weight: 50;
+}
+p {
+    font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        color: silver;;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: poppins;
+    margin-bottom: 1rem;
+}
+h2 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: poppins;
+    word-spacing: 1rem;
+}
+}
+@media screen and (max-width: 760px) {
+    .container{
+        display: none;
+    }
+    .mobile-content{
+        width: 100%;
+
+    } 
+    
+    .mobile-container{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-column{
+        position: absolute;
+    }
+    .mobile-direction{
+        display: flex;
+        left: -1px;
+        position: absolute;
+        top: -40px;
+        border: 2px solid black;
+        justify-content: space-between;
+        width: 17%;
+        background-color: black;
+        padding: 10px;
+        /* padding-right: 1rem; */
+    }
+    .fa-chevron-left{
+        color: white;
+        font-weight: 100;
+    }
+    .fa-chevron-right{
+        color: white;
+        font-weight: 100;
+    }
+    .fa-bars{
+        color: white;
+        position: absolute;
+        top: 33px;
+        left: 35px;
+        font-size: 25px;
+        font-weight: 300;
+        z-index: 1;
+    }
+    .roomy-container {
+    position: relative;
+    display: inline-block;
+    }
+    .roomy{
+        position: absolute;
+        top: 6px;
+        left: 170px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        z-index: 1;
+    }
+    .discovery{
+        padding-left: 2rem;
+        padding-top: 19rem;
+        padding-bottom: 3rem;
+        margin-top: 3rem;
+    }
+    .discovery h3{
+        padding-bottom: 1.2rem;
+        font-size: 30px;
+        font-weight: 900;
+        
+    }
+    .discovery p{
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 500;
+        color: silver;
+    }
+    .discovery .shop-now{
+        padding-top: 1.8rem;
+        padding-bottom: 1rem;
+        letter-spacing: 0.7rem;
+        font-weight: 700;
+    }
+    .m-about{
+        padding-top: 2.2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+         /* margin: 40px 0 0 50px; */
+    }
+    .m-about h3{
+        font-weight: 600;
+        font-size: 19px;
+        padding-bottom: 1rem;
+    }
+    .m-about p{
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 400;
+        color: silver;
+        padding-bottom: 1rem;
+    }
+    .m-room {
+        max-height: fit-content;
+        position: relative;
+        top: -20px;
+    }
+
+}
+    @media screen and (max-width: 380px) {
+        .container {
+            height: fit-content;
+        }
+        .mobile-direction{
+            display: flex;
+            left: -28px;
+            position: absolute;
+            top: -70.7;
+            border: 2px solid black;
+            justify-content: space-between;
+            width: 18%;
+            background-color: black;
+            padding: 10px;
+        }    
+
+    }
+    @media screen and (max-width: 484px) {
+    .container {
+        width: 484px;
+        height: fit-content;
+    }
+
+    .mobile-direction{
+        display: flex;
+        margin-left: 19.2rem;
+        position: absolute;
+        margin-top: 20.41rem;
+        border: 2px solid black;
+        justify-content: space-between;
+        width: 17%;
+        background-color: black;
+        padding: 10px;
+    }    
+
+    }
+    @media screen and (min-width:820) {
+        .container .mobile-content{
+            display: none;
+        }
+        
+    }
