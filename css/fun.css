@@ -138,7 +138,7 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        left: 16px;
+        left: 14.5px;
         position: absolute;
         top: -40px;
         border: 2px solid black;
