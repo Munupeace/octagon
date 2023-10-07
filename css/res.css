@@ -8,7 +8,9 @@ margin: 0;
 .bodyd {
     width: 100%;
     background-color: hsl(257, 40%, 49%); 
+    box-sizing: border-box;
 }
+@media only screen and (min-width:768px) {
 .container {
     display: flex;
 }
@@ -70,18 +72,22 @@ margin: 0;
     margin-right: 5px;
 
 }
+}
 
 @media only screen and (max-width:760px) {
 .bodyd {
     background-color: hsl(300, 69%, 71%);
+    box-sizing: border-box;
 }
 .container {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
 .passive img {
-    width: 300px;
+    max-width: 100%;
 }
 .active img{
     margin-bottom: 1rem;
@@ -91,12 +97,28 @@ margin: 0;
 }
 .icons {
     position: relative;
-    left: -150px;
+    left: -90px;
     margin-bottom: 3rem;
+    /* justify-content: center; */
 }
 .subb {
     width: 65%;
+    position: relative;
+    left: 40px;
 }
 
+}
+
+@media only screen and (min-width:768px) {
+.container {
+box-sizing: border-box;
+width: 100%;
+height: auto;
+}
+
+.container .passive {
+    width: 300px;
+}
 
 }
+

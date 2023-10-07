@@ -1,2 +1,2 @@
 # octagon
-my learning journey on web designing
+This is my journey to web desigining and developmet.

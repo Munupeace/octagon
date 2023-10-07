@@ -78,10 +78,10 @@ text-decoration: none;
 }
 .arrow {
     display: flex;
-    width: 28.7%;
+    width: 22.5%;
     position: relative;
-    bottom: -113px;
-    padding: 18px;
+    bottom: -84px;
+    padding: 22px;
     border: 2px solid black;
     justify-content: space-between;
     background-color: black;
@@ -114,6 +114,8 @@ h2 {
     font-family: poppins;
     word-spacing: 1rem;
 }
+
+
 }
 
 
@@ -122,6 +124,7 @@ h2 {
     .container{
         display: none;
     }
+
     .mobile-content{
         box-sizing: border-box;
         width: 100%;
@@ -138,22 +141,21 @@ h2 {
     }
     .mobile-direction{
         display: flex;
-        left: 14.5px;
+        left: 10px;
         position: absolute;
         top: -40px;
         border: 2px solid black;
         justify-content: space-between;
-        width: 17.3%;
+        width: 15.7%;
         background-color: black;
         padding: 10px;
-        /* padding-right: 1rem; */
     }
     .fa-chevron-left{
         color: white;
         font-weight: 100;
     }
     .fa-chevron-right{
-        color: white;
+        color: whitesmoke;
         font-weight: 100;
     }
     .fa-bars{
@@ -208,7 +210,6 @@ h2 {
         padding-top: 2.2rem;
         padding-left: 2rem;
         padding-bottom: 2rem;
-         /* margin: 40px 0 0 50px; */
     }
     .m-about h3{
         font-weight: 600;
@@ -292,9 +293,4 @@ h2 {
     }    
 
     /* } */
-    @media screen and (min-width:820) {
-        .container .mobile-content{
-            display: none;
-        }
-        
-    }
+
