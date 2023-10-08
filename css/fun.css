@@ -23,6 +23,11 @@ margin: 0;
     
 
 }
+
+.desk1 {
+    width: 630px;
+    height: 450px;
+}
 .fa-bars {
     display: none;
 }
@@ -294,3 +299,38 @@ h2 {
 
     /* } */
 
+
+@media screen and (min-width: 769px) {
+    .mobile-content {
+        display: none;
+    }
+   .container {
+       box-sizing: border-box;
+
+   }
+    .column {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .dropdown .fa-bars {
+        z-index: 1;
+    }
+
+    .dropdown .dropdown-content a {
+        display: none;
+    }
+
+    .img-1 {
+        width: 20%;
+    }
+  
+    .icons {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}

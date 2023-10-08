@@ -250,16 +250,19 @@ padding-bottom: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: fit-content;
     }
 
     .word-1-2 {
         display: flex;
         flex-direction: column;
+        /* max-width: 100%; */
     }
 
     .word-3-4{
         display: flex;
         flex-direction: column;
+        /* max-width: 100%; */
     }
 
     .word .word-2 {
