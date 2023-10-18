@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*
+{
+padding: 0;
+margin: 0;
+text-decoration: none;
+}
+
+.overall-container {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/* style of top image container */
+.top-row{
+    display: flex;
+
+}
+
+.main-header{
+    position: relative;
+
+}
+.main-header nav {
+    position: absolute;
+    left: 48px;
+    
+
+}
+
+.desk1 {
+    width: 580px;
+    height: 350px;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.room {
+    font-weight: 700;
+    font-size: 22px;
+
+}
+.dropdown .room{
+    display: inline-flex;
+    margin-top: 2rem;
+}
+
+.dropdown-content a{
+margin-right: 25px;
+color: white;
+font-weight: 400;
+text-decoration: none;
+}
+/* end of top img container */
+
+
+/* style of top write-up */
+
+.rightrow-2{
+ margin-top: 60px;  
+ margin-left: 70px; 
+}
+
+.write-up h1{
+    margin-bottom: 17px;
+}
+
+.write-up p {
+    line-height: 1.4rem;
+    color: grey;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.shop-now {
+    margin-bottom: 17px;
+    letter-spacing: 12px;
+    font-weight: 800;
+}
+.fa-long-arrow-right {
+    margin-right: 15px;
+}
+
+.arrow {
+    display: flex;
+    width: 57px;
+    margin-top: 29.6px;
+    position: relative;
+    left: -70px;
+    padding: 12px;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+
+.fa-chevron-left {
+    color: grey;
+    font-weight: 10;
+}
+.fa-chevron-right {
+    color: grey;
+    font-weight: 10;
+}
+
+

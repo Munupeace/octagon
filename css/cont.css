@@ -254,6 +254,7 @@ padding-bottom: 5px;
         /* align-items: center; */
         box-sizing: border-box;
         max-width: 100%;
+        overflow: hidden;
     }
 
     .word-1-2 {
@@ -268,33 +269,148 @@ padding-bottom: 5px;
         /* max-width: 100%; */
     }
 
+    .word .word-1 h2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-1 h4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-1 h3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-1 p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .word .word-1 {
-        width: 85%;
-        max-width: calc(100%-10rem);
+        width: 100%;
 
     }
+
+
+
 
     .word .word-2 {
-        width: 85%;
+        width: 100%;
         margin-bottom: 1rem;
     }
+
+
+    .word .word-2 h2{
+        flex-wrap: wrap;
+    }
+
+    .word .word-2 h4{
+        flex-wrap: wrap;
+    }
+
+    .word .word-2 h3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-2 p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
 
     .word .word-3 {
-        width: 85%;
+        width: 100%;
         margin-bottom: 1rem;
     }
     
-    .word .word-4 {
-        width: 85%;
-        margin-bottom: 0.3rem;
+
+    .word .word-3 h2{
+        display: flex;
+        flex-wrap: wrap;
     }
 
+    .word .word-3 h4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-3 h3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-3 p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+    .word .word-4 {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .word .word-4 h2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-4 h4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-4 h3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-4 p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
     .word .word-5 {
-        width: 85%;
+        width: 100%;
+        /* margin-top: 2rem; */
         margin-right: 3.6rem;
         margin-bottom: 1.5rem;
+        position: relative;
+        top: -30px;
     
     }
+
+    .word .word-5 h2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-5 h4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-5 h3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .word .word-5 p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 
 
 
