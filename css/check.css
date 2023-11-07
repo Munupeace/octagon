@@ -17,16 +17,17 @@ a {
 }
 .main-container {
     box-sizing: border-box;
-background-color: white;
+    background-color: white;
 }
+
 .all-card{
-    display: flex;
-    column-gap: 10rem;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  column-gap: 10rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .card-1 {
@@ -125,6 +126,34 @@ background-color: white;
     
   }
   
-.card-2 {
-    margin-bottom: 3rem;
+  
+  .card2-3 .card-2{
+  margin-bottom: 3rem;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  padding: 20px 15px 30px 20px;
+  border-radius: 10px;
+  width: 80%;
+
 }
+
+.card-2 .account-1{
+display: flex;
+border-bottom: 1px solid hsl(220, 14%, 75%);
+justify-content: space-between;
+}
+
+.card-2 .account-2{
+display: flex;
+
+}
+
+.card2-3 .card-3{
+    background: teal;
+}
+
+
+
+
+
+
