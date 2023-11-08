@@ -447,5 +447,76 @@ white-space: nowrap;
   white-space: nowrap;
 }
 
+.card-1 .save {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 7rem;
+  width: 45%;
+  box-shadow: none;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 2.3rem;
+  background-color: orange;
+}
 
+.card-2 {
+  margin-bottom: 1rem;
+}
+
+.card-2 .account-3 .nav-left3 .unblock {
+  
+  /* position: absolute; */
+  /* width: 30%; */
+  box-shadow: none;
+  /* height: 30px; */
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: greenyellow;
+  margin-top: 10px;
+
+}
+
+.card-2 .account-2 .nav-left2 .block {
+  
+  /* position: absolute; */
+  /* width: 30%; */
+  box-shadow: none;
+  /* height: 30px; */
+  color: white;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: orangered;
+
+}
+
+.card-2 .account-1 .nav-left1 .edit {
+  width: 4.2rem;
+  box-shadow: none;
+  /* height: 30px; */
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.name p{
+  color: silver;
+}
+
+.card-2 .active-account {
+  color: black;
+}
+
+.card-2 .blocked-account {
+  color: black;
+}
 }
