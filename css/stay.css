@@ -134,3 +134,12 @@ font-family: sans-serif;
     margin-bottom:26px;
 }
 
+.mobile-content{
+    display: none;
+}
+
+@media screen and (max-width: 760px){
+    .overall-wrapper {
+        display: none;
+    }
+}
