@@ -124,7 +124,7 @@ h2 {
 }
 
 
-/* 12pro,pixel5 */
+/* 12pro,pixel5 425px*/
 @media screen and (max-width: 760px) {
     .container{
         display: none;
@@ -142,26 +142,26 @@ h2 {
         flex-direction: column;
     }
 
-.m-room{
+    .m-room{
     width: 100%;
-    height: 330px;
-}  
+    height: 360px;
+    }  
 
-.m-dark{
+    .m-dark{
     width: 100%;
     height: 250px;
-}
+    }
 
-.m-light{
+    .m-light{
     width: 100%;
     height: 250px;
-}
+    }
 
     .mobile-direction{
+        position: relative;
+        top: -66px;
+        left: 335px;
         display: flex;
-        left: 17.5px;
-        position: absolute;
-        top: -40px;
         border: 2px solid black;
         justify-content: space-between;
         width: 15.7%;
@@ -207,10 +207,9 @@ h2 {
     }
 
     .discovery{
-        padding-left: 2rem;
-        padding-top: 19rem;
-        padding-bottom: 3rem;
-        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+        margin-top: -2rem;
     }
 
     .discovery h3{
@@ -262,7 +261,6 @@ h2 {
 
 }
 
-@media screen and (max-width: 425px) {}
 
 @media screen and (max-width: 375px) {
     .container {
@@ -287,10 +285,10 @@ h2 {
     }
     
     .mobile-direction{
-        display: flex;
-        left: -50px;
         position: absolute;
         top: -70.7;
+        left: -230px;
+        display: flex;
         border: 2px solid black;
         justify-content: space-between;
         width: 18%;
@@ -324,8 +322,8 @@ h2 {
         
         .mobile-direction{
             display: flex;
-            left: 27.7px;
-            position: absolute;
+            left: 240.7px;
+            position: relative;
             top: -70.7;
             border: 2px solid black;
             justify-content: space-between;
