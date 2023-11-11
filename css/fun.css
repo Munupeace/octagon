@@ -136,16 +136,27 @@ h2 {
 
     } 
 
-    
-    
     .mobile-container{
         
         display: flex;
         flex-direction: column;
     }
-    .mobile-column{
-        position: absolute;
-    }
+
+.m-room{
+    width: 100%;
+    height: 330px;
+}  
+
+.m-dark{
+    width: 100%;
+    height: 250px;
+}
+
+.m-light{
+    width: 100%;
+    height: 250px;
+}
+
     .mobile-direction{
         display: flex;
         left: 17.5px;
@@ -157,14 +168,17 @@ h2 {
         background-color: black;
         padding: 10px;
     }
+
     .fa-chevron-left{
         color: white;
         font-weight: 100;
     }
+
     .fa-chevron-right{
         color: whitesmoke;
         font-weight: 100;
     }
+
     .fa-bars{
         color: white;
         position: absolute;
@@ -174,10 +188,12 @@ h2 {
         font-weight: 300;
         z-index: 1;
     }
+
     .roomy-container {
     position: relative;
     display: inline-block;
     }
+
     .roomy{
         position: absolute;
         top: -4px;
@@ -189,40 +205,47 @@ h2 {
         text-decoration: none;
         z-index: 1;
     }
+
     .discovery{
         padding-left: 2rem;
         padding-top: 19rem;
         padding-bottom: 3rem;
         margin-top: 3rem;
     }
+
     .discovery h3{
         padding-bottom: 1.2rem;
         font-size: 30px;
         font-weight: 900;
         
     }
+
     .discovery p{
         font-size: 17px;
         line-height: 22px;
         font-weight: 500;
         color: silver;
     }
+
     .discovery .shop-now{
         padding-top: 1.8rem;
         padding-bottom: 1rem;
         letter-spacing: 0.7rem;
         font-weight: 700;
     }
+
     .m-about{
         padding-top: 2.2rem;
         padding-left: 2rem;
         padding-bottom: 2rem;
     }
+
     .m-about h3{
         font-weight: 600;
         font-size: 19px;
         padding-bottom: 1rem;
     }
+
     .m-about p{
         font-size: 17px;
         line-height: 22px;
@@ -230,6 +253,7 @@ h2 {
         color: silver;
         padding-bottom: 1rem;
     }
+
     .m-room {
         max-height: fit-content;
         position: relative;
@@ -238,25 +262,43 @@ h2 {
 
 }
 
-    @media screen and (max-width: 375px) {
-        .container {
-            height: fit-content;
-            max-width: 100%;
-            box-sizing: border-box;
-        }
-        .mobile-direction{
-            display: flex;
-            left: -50px;
-            position: absolute;
-            top: -70.7;
-            border: 2px solid black;
-            justify-content: space-between;
-            width: 18%;
-            background-color: black;
-            padding: 10px;
-        }    
+@media screen and (max-width: 425px) {}
 
+@media screen and (max-width: 375px) {
+    .container {
+        height: fit-content;
+        max-width: 100%;
+        box-sizing: border-box;
     }
+
+    .m-room{
+        width: 100%;
+        height: 330px;
+    }  
+    
+    .m-dark{
+        width: 100%;
+        height: 250px;
+    }
+    
+    .m-light{
+        width: 100%;
+        height: 250px;
+    }
+    
+    .mobile-direction{
+        display: flex;
+        left: -50px;
+        position: absolute;
+        top: -70.7;
+        border: 2px solid black;
+        justify-content: space-between;
+        width: 18%;
+        background-color: black;
+        padding: 10px;
+    }    
+
+}
 
     @media screen and (max-width: 320px){
         .container {
@@ -264,6 +306,22 @@ h2 {
             max-width: 100%;
             box-sizing: border-box;
         }
+
+        .m-room{
+            width: 100%;
+            height: 330px;
+        }  
+        
+        .m-dark{
+            width: 100%;
+            height: 250px;
+        }
+        
+        .m-light{
+            width: 100%;
+            height: 250px;
+        }
+        
         .mobile-direction{
             display: flex;
             left: 27.7px;
@@ -281,7 +339,7 @@ h2 {
 
 
     /* @media screen and (max-width: 414px) { */
-    .container {
+    /* .container {
         max-width: 100%;
         height: fit-content;
         box-sizing: border-box;
@@ -297,42 +355,6 @@ h2 {
         width: 16.5%;
         background-color: black;
         padding: 10px;
-    }    
+    }     */
 
     /* } */
-
-
-@media screen and (min-width: 769px) {
-    .mobile-content {
-        display: none;
-    }
-   .container {
-       box-sizing: border-box;
-
-   }
-    .column {
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-    }
-
-    .dropdown .fa-bars {
-        z-index: 1;
-    }
-
-    .dropdown .dropdown-content a {
-        display: none;
-    }
-
-    .img-1 {
-        width: 20%;
-    }
-  
-    .icons {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    
-}
