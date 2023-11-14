@@ -262,10 +262,24 @@ h2 {
 }
 
 
+@media screen and (max-width: 414px){
+.mobile-content .mobile-container .mobile-direction{
+    position: relative;
+    top: -69.5;
+    right: -230px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    width: 18%;
+    background-color: blaxck;
+    padding: 10px;
+}
+}
+
 @media screen and (max-width: 375px) {
     .container {
         height: fit-content;
-        max-width: 100%;
+        width: 100%;
         box-sizing: border-box;
     }
 
@@ -285,9 +299,9 @@ h2 {
     }
     
     .mobile-direction{
-        position: absolute;
-        top: -70.7;
-        left: -230px;
+        position: relative;
+        top: -69.5px;
+        left: 334px;
         display: flex;
         border: 2px solid black;
         justify-content: space-between;
