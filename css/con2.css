@@ -8,6 +8,11 @@ text-decoration: none;
 box-sizing: border-box;
 }
 
+.both-words { 
+display: flex;
+flex-direction: row;
+}
+
 .word .word-1-2 {
     display: flex;
     column-gap: 2rem;
@@ -18,6 +23,7 @@ box-sizing: border-box;
 .word-1 {
     margin-left: 1.3rem;
     background-color: hsl(263, 55%, 52%);
+    width: 70%;
     padding-top: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -59,6 +65,7 @@ box-sizing: border-box;
 
 .word-2 {
     background-color: hsl(217, 19%, 35%);
+    width: 30%;
     margin-right: 0.6rem;
     padding-top: 0.5rem;
     padding-left: 1.5rem;
@@ -75,7 +82,7 @@ box-sizing: border-box;
     font-size: 15px;
     font-weight: 700;
     color: white;
-    line-height: 1.7rem;
+    line-height: 1.4rem;
     padding-left: 1.5rem;
 }
 
@@ -111,7 +118,7 @@ box-sizing: border-box;
     margin-left: 1.2rem;
     padding-top: 0.5rem;
     padding-left: 1.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
     border-radius: 0.4rem;
 }
 
@@ -154,7 +161,7 @@ box-sizing: border-box;
     margin-right: 0.7rem;
     padding-top: 0.5rem;
     padding-left: 1.5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 10rem;
     border-radius: 0.4rem;
 }
 
@@ -193,13 +200,15 @@ box-sizing: border-box;
 
 .word-5 {
     margin-left: 1.3rem;
-    background-color: hsl(217, 19%, 35%);
+    background-color: gainsboro;
+    margin-top: 1rem;
     padding-top: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-bottom: 1.5rem;
-    border-radius: 0.4rem;
     margin-bottom: 2rem;
+    width: 20%;
+    border-radius: 0.4rem;
+    margin-right: 1rem;
 }
 
 .word-5 .sub5{
@@ -210,9 +219,10 @@ box-sizing: border-box;
 .word-5 .sub5 h2{
     font-size: 15px;
     font-weight: 700;
-    color: white;
+    color: black;
     line-height: 1.7rem;
-    padding-left: 1.5rem;
+    padding-left: 1.1rem;
+    white-space: nowrap;
 }
 
 .word-5 .sub5 .man5 {
@@ -220,104 +230,135 @@ box-sizing: border-box;
 }
 
 .word-5 h3 {
-    color: white;
-    font-size: 20px;
+    color: black;
+    font-size: 17px;
     font-weight: 900;
     line-height: 1.6rem;
     padding-bottom: 0.6rem;
+    white-space: nowrap;
+    padding-right: 0.5rem;
 }
 
 .word-5 p{
-    color: white;
+    color: silver;
     font-weight: 400;
     line-height: 1.4rem;
     font-size: 14px;
 }
-
-
-@media screen and (max-width: 760px){
-    .word .word-1-2 {
+@media screen and (max-width: 768px){
+    .both-words {
         display: flex;
         flex-direction: column;
-        margin-bottom: 2rem;
+        box-sizing: border-box;
     }
 
+    .word-1-2 {
+        display: flex;
+        flex-direction: column;
+    }
 
     .word-3-4 {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .word-1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1.5rem;
     }
 
-    .word-2 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1.4rem;
+    .word-2{
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.2rem;
     }
 
     .word-3 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: -1rem;
+        margin-bottom: 1.2rem;
     }
-    
+
     .word-4 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1.5rem; 
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+        padding-bottom: -6rem;
     }
 
     .word-5 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1rem;
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: -1.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
     }
-    
+
 }
 
-
-@media screen and (max-width: 320px){
-    .word .word-1-2 {
+@media screen and (max-width: 760px){
+    .both-words {
         display: flex;
         flex-direction: column;
-        margin-bottom: 2rem;
+        box-sizing: border-box;
     }
 
+    .word-1-2 {
+        display: flex;
+        flex-direction: column;
+    }
 
     .word-3-4 {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .word-1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1.5rem;
     }
 
-    .word-2 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1.4rem;
+    .word-2{
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.2rem;
     }
 
     .word-3 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: -1rem;
+        margin-bottom: 1.2rem;
     }
-    
+
     .word-4 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1.5rem; 
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+        padding-bottom: -6rem;
     }
 
     .word-5 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1rem;
+        width: 96%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: -1.5rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 1rem;
     }
-    
+
 }
