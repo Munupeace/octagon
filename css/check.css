@@ -494,6 +494,7 @@ white-space: wrap;
 
 .card-1 .profile p{
   white-space: wrap;
+  font-size: 15px;
 }
 
 .card-3 {
@@ -503,18 +504,18 @@ white-space: wrap;
 }
 
 .card-3 .bills .my-bills {
-  font-size: 13px;
+  font-size: 15px;
   white-space: nowrap;
   margin-top: 22px;
 }
 
 .card-3 .bills .nav-right1 {
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 10px;
 }
 
 .card-3 .phonebill h3 {
-  font-size: 13px;
+  font-size: 15px;
   white-space: nowrap;
 }
 
@@ -523,17 +524,17 @@ white-space: wrap;
 }
 
 .card-3 .internetbill h3 {
-  font-size: 13px;
+  font-size: 15px;
   white-space: nowrap;
 }
 
 .card-3 .houserent h3 {
-  font-size: 13px;
+  font-size: 15px;
   white-space: nowrap;
 }
 
 .card-3 .incometax h3 {
-  font-size: 13px;
+  font-size: 15px;
   white-space: nowrap;
 }
 
@@ -565,22 +566,27 @@ white-space: wrap;
 
 .card-1 .write-up1 h3{
 white-space: nowrap;
+font-size: 16px;
 }
 
 .card-1 .profile{
   column-gap: 1rem;
+  font-size: 16px;
 }
 
 .card-1 .write-up1 h4 {
   white-space: nowrap;
+  font-size: 16px;
 }
 
 .card-1 .name {
   column-gap: 1rem;
+  font-size: 16px;
 }
 
 .card-1 .name p {
   white-space: nowrap;
+  font-size: 16px;
 }
 
 .card-1 .save {
@@ -629,7 +635,7 @@ white-space: nowrap;
   width: 4.2rem;
   box-shadow: none;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   padding: 12px;
   border-radius: 15px;
@@ -637,6 +643,7 @@ white-space: nowrap;
 
 .name p{
   color: silver;
+  font-size: 16px;
 }
 
 .card-2 .active-account {
@@ -647,6 +654,200 @@ white-space: nowrap;
   color: black;
 }
 }
+
+
+
+/* done */
+@media screen and (max-width: 540px){
+  .main-container {
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.all-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.card-1 .profile {
+  font-size: 19px;
+}
+
+.card-1 .profile p{
+  font-size: 19px;
+}
+
+.card-1 .profile h3{
+  font-size: 19px;
+}
+
+.card-1 .name {
+  font-size: 19px;
+}
+
+.card-1 .mail{
+font-size: 19px;
+}
+
+.card-1 .sms {
+  font-size: 19px;
+}
+
+.card-2  .account{
+white-space: nowrap;
+font-size: 19px;
+margin-top: 11px;
+}
+
+.card-2 .account-2 {
+  white-space: nowrap;
+  font-size: 19px;
+} 
+
+.card-2 .account-3 {
+  white-space: nowrap;
+  font-size: 19px;
+} 
+
+.card-3 .bills .my-bills {
+  font-size: 19px;
+  white-space: nowrap;
+  margin-top: 22px;
+}
+
+.card-3 .bills .nav-right1 {
+  margin-left: -20px;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+.card-3 .phonebill h3 {
+  font-size: 19px;
+  white-space: nowrap;
+}
+
+.card-3 .phonebill .nav-right2{
+  margin-left: -10px;
+}
+
+.card-3 .internetbill h3 {
+  font-size: 19px;
+  white-space: nowrap;
+}
+
+.card-3 .houserent h3 {
+  font-size: 19px;
+  white-space: nowrap;
+}
+
+.card-3 .incometax h3 {
+  font-size: 19px;
+  white-space: nowrap;
+}
+
+}
+
+
+/* done */
+@media screen and (max-width: 425px){
+  .main-container {
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.all-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.card-1 .profile {
+  font-size: 17px;
+}
+
+.card-1 .profile p{
+  font-size: 17px;
+}
+
+.card-1 .profile h3{
+  font-size: 17px;
+}
+
+.card-1 .name {
+  font-size: 17px;
+}
+
+.card-1 .mail{
+font-size: 17px;
+}
+
+.card-1 .sms {
+  font-size: 17px;
+}
+
+.card-2  .account{
+white-space: nowrap;
+font-size: 17px;
+margin-top: 11px;
+}
+
+.card-2 .account-2 {
+  white-space: nowrap;
+  font-size: 17px;
+} 
+
+.card-2 .account-3 {
+  white-space: nowrap;
+  font-size: 17px;
+} 
+
+.card-3 .bills .my-bills {
+  font-size: 17px;
+  white-space: nowrap;
+  margin-top: 22px;
+}
+
+.card-3 .bills .nav-right1 {
+  margin-left: -20px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.card-3 .phonebill h3 {
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.card-3 .phonebill .nav-right2{
+  margin-left: -10px;
+}
+
+.card-3 .internetbill h3 {
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.card-3 .houserent h3 {
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.card-3 .incometax h3 {
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+}
+
 
 @media screen and (max-width: 320px){
   .main-container {
@@ -684,7 +885,7 @@ white-space: nowrap;
 }
 
 .card-1 .profile p{
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .card-1 .name {
@@ -696,7 +897,7 @@ font-size: 11px;
 }
 
 .card-1 .sms {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .card-2  .account{
@@ -754,100 +955,12 @@ margin-top: 11px;
 
 }
 
-@media screen and (max-width: 425px){
-  .main-container {
-    box-sizing: border-box;
-    background-color: lightgreen;
-    display: flex;
-    width: 100%;
-}
 
-.all-card{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-}
-
-.card-1 .profile {
-  font-size: 11px;
-}
-
-.card-1 .profile p{
-  font-size: 11px;
-}
-
-.card-1 .name {
-  font-size: 11px;
-}
-
-.card-1 .mail{
-font-size: 11px;
-}
-
-.card-1 .sms {
-  font-size: 11px;
-}
-
-.card-2  .account{
-white-space: nowrap;
-font-size: 11px;
-margin-top: 11px;
-}
-
-.card-2 .account-2 {
-  white-space: nowrap;
-  font-size: 11px;
-} 
-
-.card-2 .account-3 {
-  white-space: nowrap;
-  font-size: 11px;
-} 
-
-.card-3 .bills .my-bills {
-  font-size: 11px;
-  white-space: nowrap;
-  margin-top: 22px;
-}
-
-.card-3 .bills .nav-right1 {
-  margin-left: -20px;
-  font-size: 11px;
-  margin-top: 10px;
-}
-
-.card-3 .phonebill h3 {
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-.card-3 .phonebill .nav-right2{
-  margin-left: -10px;
-}
-
-.card-3 .internetbill h3 {
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-.card-3 .houserent h3 {
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-.card-3 .incometax h3 {
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-}
-
+/* done */
 @media screen and (max-width: 280px){
   .main-container {
     box-sizing: border-box;
-    background-color: lightgreen;
+    background-color: white;
     display: flex;
     width: 100%;
 }
@@ -865,44 +978,84 @@ margin-top: 11px;
 }
 
 .card-1 .profile p{
-  line-height: 1.5rem;
+  line-height: 1.3rem;
+  font-size: 15px;
+}
+
+.card-1 .profile h3 {
+  font-size: 15px;
+}
+
+.card-1 .name{
+  font-size: 15px;
+}
+
+.card-1 .mail{
+  font-size: 15px;
+}
+
+.card-1 .sms{
+  font-size: 15px;
+}
+
+.card-2 .account{
+  font-size: 15px;
 }
 
 .card-2 .account-1 .edit {
-  margin-left: -1.5rem;
+  /* margin-left: -1.5rem; */
 }
 
 .card-2 .block {
-  margin-left: -1.5rem;
+  margin-left: -2rem;
 }
 
 .card-2 .unblock {
-  margin-left: -2rem;
+  margin-left: -2.5rem;
+}
+
+.card-2 .active-account{
+  font-size: 11px;
+}
+
+.card-2 .blocked-account{
+  font-size: 11px;
+}
+
+
+.card-2 .account-1 .nav-left1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5rem;
+  justify-content: space-between;
 }
 
 
 .card-3 .bills .nav-right1{
-  margin-left: -2.6rem;
+  margin-left: -3.9rem;
 }
 
 .card-3 .phonebill .nav-right2{
-  margin-left: -2.6rem;
+  margin-left: -3.5rem;
 }
 
 
 .card-3 .internetbill .nav-right3 {
-  margin-left: -2.3rem;
+  margin-left: -2.9rem;
 }
 
 .card-3 .houserent .nav-right4 {
-  margin-left: -2rem;
+  margin-left: -2.9rem;
 }
 
 .card-3 .incometax .nav-right5 {
-  margin-left: -2rem;
+  margin-left: -2.9rem;
 }
 
-
+.card-3  .bills .my-bills{
+  font-size: 16px;
+  font-weight: 600;
+}
 
 }
 

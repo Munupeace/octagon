@@ -5,215 +5,194 @@
 padding: 0;
 margin: 0;
 }
+
 .bodyd {
     width: 100%;
-    background-color: hsl(257, 40%, 49%); 
-    height: 100vh;
+    box-sizing: border-box;
+    background-color: hsl(257, 40%, 49%);
+    text-decoration: none;
+  }
+
+  
+.container {
+    display: flex;
+    box-sizing: border-box;
+    padding-bottom: 2rem;
 }
-@media only screen and (min-width:1024px) {
-    .container {
-        display: flex;
-        box-sizing: border-box;
-        height: 100vh;
-}
+
 .first {
-    margin-top: 2rem;
-    margin-left: 2.5rem;
+margin-top: 2rem;
+margin-left: 2.5rem;
 
 }
+
 .passive img {
-    width: 530px;
+width: 530px;
 }
 
 .second {
-    margin-left: 6rem;
-    margin-top: 8.5rem;
+margin-left: 6rem;
+margin-top: 8.5rem;
 }
+
 .second .sibling h1 {
-    margin-bottom: 1rem;
-    font-size: 32px;
-    font-weight: 900;
-    color: white;
-    line-height: 1.2em;
+margin-bottom: 1rem;
+font-size: 32px;
+font-weight: 900;
+color: white;
+line-height: 1.2em;
 }
+
 .second .sibling p {
-    font-size: 15px;
-    font-weight: 400;
-    color: white;
-    line-height: 1.5em;
-    margin-bottom: 1rem;
+font-size: 15px;
+font-weight: 400;
+color: white;
+line-height: 1.5em;
+margin-bottom: 1rem;
+white-space: nowrap;
 }
 
 .subb{
-    background-color: white;
-    width: 85%;
-    border-color: white;
-    box-shadow: none;
-    height: 50px;
-    color: magenta;
-    font-size: small;
-    /* position: relative; */
-    font-weight: 500;
-    /* right: 12rem; */
-    border-radius: 2rem;
-    margin-bottom: 3rem;
-    margin-top: 1rem;
+background-color: white;
+width: 75%;
+border-color: white;
+box-shadow: none;
+height: 50px;
+color: magenta;
+font-size: small;
+font-weight: 500;
+border-radius: 2rem;
+margin-bottom: 3rem;
+margin-top: 1rem;
 }
+
 .icons{
-    display: flex;
-    width: 50px;
-    font-size: 24px;
-    padding-left: 12rem;
-    justify-content: space-between;
-    padding-right: 1rem;
-    /* background-color: hsl(257, 40%, 49%);  */
-
-          
+display: flex;
+width: 50px;
+font-size: 24px;
+margin-left: 5rem;
+margin-top: 1.3rem;
+justify-content: space-between;
+padding-right: 1rem;
+     
 }
+
 .face{
-    border-radius: 50%;
-    border: 1px solid purple;
-    padding: 0.5rem;
-    margin-right: 5px;
+border-radius: 50%;
+border: 1px solid purple;
+padding: 0.5rem;
+margin-right: 5px;
 
 }
-}
 
-@media only screen and (max-width:768px) {
-.bodyd {
-    background-color: hsl(300, 69%, 71%);
-    box-sizing: border-box;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    height: 100vh;
-}
-
-.passive img {
-    max-width: 100%;
-}
-.active img{
-    margin-bottom: 1rem;
-}
-.second {
-    margin-top: 1rem;
-    align-items: center;
-    justify-content: center;
-}
-.second .sibling h1 {
-    color: white;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.second .sibling p {
-    color: white;
-    text-align: center;
-    padding-bottom: 2rem;
-    font-size: medium;
-}
-
-
-.second .face{
-
-    /* position: relative; */
-    /* display: flex; */
-    /* left: -90px; */
-    /* margin-bottom: 3rem; */
-    /* justify-content: center; */
-}
-.subb {
-    width: 65%;
-    border-radius: 25px;
-    padding: 15px;
-    height: 50px;
-    border: 2px solid white;
-    /* text-align: center; */
-    position: relative;
-    left: 60px;
-    color: magenta;
-}
-
-
-.icons {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1.5rem;
+@media only screen and (max-width: 768px) {
+    .bodyd {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: magenta;
+        text-decoration: none;
+      }
     
-}
+      
+    .container {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-bottom: 1.5rem;
+    }
 
+    .first {
+        text-align: center;
+    }
 
-.face {
-    border-radius: 50%;
-    border: 1px solid purple;
-    padding: 0.5rem;
-    margin-right: 5px;
-
-}
-}
-
-
-@media only screen and (min-width:769px) {
-   .container {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100vh;
+    .passive img {
+        width: 500px;
     }
     
-    .container .passive {
-        max-width: 100%;
+    .second {
+        margin-left: -0.05rem;
+        margin-top: 2rem;
+    }
+    
+    .sibling p {
+        text-align: center;
+        white-space: wrap;
+        font-size: 25px;
     }
 
     .sibling h1{
-        color: white;
-        padding-bottom: 1.5rem;
-        font-weight: 600;
-        text-align: center;
-    }
-
-    .sibling p {
-        text-align: center;
-        padding-bottom: 3rem;
-        font-weight: 400;
-        color: white;
-        font-size: large;
-        line-height: 1.6rem;
+     font-size: 35px;
+     white-space: wrap;
+     text-align: center;
     }
 
     .subb {
-        width: 45%;
-        border-radius: 25px;
-        padding: 15px;
-        border: 2px solid white;
-        /* text-align: center; */
-        position: relative;
-        right: -200px;
-        background-color: white;
-
-        color: magenta;
-    }
-    
-    
-    .icons {
-        display: flex;
-        align-items: center;
+        width: 50%;
+        /* white-space: nowrap; */
         text-align: center;
-        justify-content: center;
-        padding-top: 2rem;
-        
+        /* margin-right: -3rem; */
+        /* text-align: center; */
+    }
+
+    .face {
+        text-align: center;
+        /* margin-left: 2rem; */
+    }
+}
+
+
+
+@media only screen and (max-width: 760px) {
+    .bodyd {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: magenta;
+        text-decoration: none;
+      }
+    
+      
+    .container {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-bottom: 1.5rem;
+    }
+
+    .passive img {
+        width: 260px;
     }
     
+    .second {
+        margin-left: -0.05rem;
+        margin-top: 2rem;
+    }
     
-    .face {
-        border-radius: 50%;
-        border: 1px solid purple;
-        padding: 0.5rem;
-        margin-right: 5px;
-    
+    .sibling p {
+        text-align: center;
+        white-space: wrap;
+    }
+
+    .sibling h1{
+     font-size: 20px;
+     white-space: wrap;
+     text-align: center;
+    }
+
+    .subb {
+        width: 50%;
+        white-space: nowrap;
+        /* margin-right: -3rem; */
+        /* text-align: center; */
+    }
+
+    .icons {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .passive img {
+        width: 270px;
     }
     
 }
