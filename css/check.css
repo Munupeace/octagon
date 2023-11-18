@@ -413,8 +413,14 @@ background-color: darkred;
 }
 }
 
+/* @media screen and (max-width: 830px){ */
+  .card-1 .write-up1 p{
+    white-space: wrap;
+    font-size: 12px;
+  }
+/* } */
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 830px){
   .main-container {
     box-sizing: border-box;
     background-color: white;
@@ -566,12 +572,12 @@ white-space: wrap;
 
 .card-1 .write-up1 h3{
 white-space: nowrap;
-font-size: 16px;
+font-size: 14px;
 }
 
 .card-1 .profile{
   column-gap: 1rem;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .card-1 .write-up1 h4 {
@@ -675,11 +681,11 @@ font-size: 16px;
 }
 
 .card-1 .profile {
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .card-1 .profile p{
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .card-1 .profile h3{
@@ -771,11 +777,11 @@ margin-top: 11px;
 }
 
 .card-1 .profile {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .card-1 .profile p{
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .card-1 .profile h3{
@@ -786,6 +792,10 @@ margin-top: 11px;
   font-size: 17px;
 }
 
+.card-1 .name p{
+ color: silver;
+  font-size: 17px;
+}
 .card-1 .mail{
 font-size: 17px;
 }
@@ -885,7 +895,7 @@ margin-top: 11px;
 }
 
 .card-1 .profile p{
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .card-1 .name {
@@ -979,7 +989,7 @@ margin-top: 11px;
 
 .card-1 .profile p{
   line-height: 1.3rem;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .card-1 .profile h3 {

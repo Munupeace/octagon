@@ -222,7 +222,7 @@ flex-direction: row;
     color: black;
     line-height: 1.7rem;
     padding-left: 1.1rem;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 .word-5 .sub5 .man5 {
@@ -245,6 +245,97 @@ flex-direction: row;
     line-height: 1.4rem;
     font-size: 14px;
 }
+@media screen and (max-width: 1024px){
+
+.word-5 .sub5 h2{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.7rem;
+    /* padding-left: rem; */
+    white-space: no wrap;
+    /* width: 25%; */
+}
+
+.both-words {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.word-1-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.word-3-4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.word-1 {
+    width: 96%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.word-2{
+    width: 96%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.word-3 {
+    width: 96%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: -1rem;
+    margin-bottom: 1.2rem;
+}
+
+.word-4 {
+    width: 96%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: -6rem;
+}
+
+.word-5 {
+    width: 96%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.word-5 h3{
+    white-space: nowrap;
+   }
+
+.word-2 p{
+    font-size: 15;
+}
+
+.word-1 p {
+    font-size: 15px;
+}
+
+.word-3 p{
+    font-size: 15px;
+}
+
+.word-4 p{
+    font-size: 15px;
+}
+
+}
+
+
 
 @media screen and (max-width: 768px){
     .both-words {

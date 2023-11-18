@@ -70,7 +70,7 @@ margin-top: 1rem;
 display: flex;
 width: 50px;
 font-size: 24px;
-margin-left: 20rem;
+margin-left: 14rem;
 margin-top: 1.3rem;
 justify-content: space-between;
 padding-right: 1rem;
@@ -85,7 +85,7 @@ margin-right: 5px;
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .bodyd {
         width: 100%;
         box-sizing: border-box;
@@ -117,26 +117,28 @@ margin-right: 5px;
     .sibling p {
         text-align: center;
         white-space: wrap;
-        font-size: 25px;
+        font-size: 35px;
+        font-weight: 500;
     }
 
     .sibling h1{
-     font-size: 35px;
+     font-size: 43px;
      white-space: wrap;
      text-align: center;
     }
 
-    .subb {
-        width: 50%;
-        /* white-space: nowrap; */
-        text-align: center;
-        /* margin-right: -3rem; */
-        /* text-align: center; */
+    .subb{
+        position: relative;
+        width: 57%;
+        margin-top: 1rem;
+        white-space: nowrap;
+        right: -180px;
     }
 
-    .face {
-        text-align: center;
-        /* margin-left: 2rem; */
+    .icons {
+        position: relative;
+        right: -115px;
+        top: -20px;
     }
 }
 
@@ -177,16 +179,19 @@ margin-right: 5px;
      white-space: wrap;
      text-align: center;
     }
-
-    .subb {
-        width: 50%;
+    
+    .subb{
+        position: relative;
+        width: 60%;
+        margin-top: 1rem;
         white-space: nowrap;
-        /* margin-right: -3rem; */
-        /* text-align: center; */
+        right: -70px;
     }
 
     .icons {
-        margin-left: 2rem;
+        position: relative;
+        right: 100px;
+        top: -20px;
     }
 }
 
@@ -194,5 +199,15 @@ margin-right: 5px;
     .passive img {
         width: 270px;
     }
-    
+
+    .subb{
+        position: relative;
+        margin-top: 1rem;
+        right: -70px;
+    }
+
+    .icons {
+        position: relative;
+        right: 110px;
+    }
 }
