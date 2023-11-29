@@ -11,7 +11,7 @@ margin: 0;
     box-sizing: border-box;
     background-color: hsl(257, 40%, 49%);
     text-decoration: none;
-    height: 100vh;
+    height: 120vh;
   }
 
   
@@ -72,8 +72,8 @@ margin-top: 1rem;
 display: flex;
 width: 50px;
 font-size: 24px;
-margin-left: 14rem;
-margin-top: 1.3rem;
+margin-left: 12rem;
+margin-top: 0.2rem;
 justify-content: space-between;
 padding-right: 1rem;
      
@@ -90,7 +90,7 @@ margin-right: 5px;
 @media only screen and (max-width: 1024px) {
     .bodyd {
         width: 100%;
-        height: 100vh;
+        height: 120vh;
         box-sizing: border-box;
         background-color: magenta;
         text-decoration: none;
@@ -145,15 +145,13 @@ margin-right: 5px;
     }
 }
 
-
-
-@media only screen and (max-width: 760px) {
-    .bodyd {
+@media only screen and (max-width: 769px) {
+    bodyd {
         width: 100%;
         box-sizing: border-box;
         background-color: magenta;
         text-decoration: none;
-        height: 100vh;
+        height: 120vh;
       }
     
       
@@ -194,18 +192,178 @@ margin-right: 5px;
 
     .icons {
         position: relative;
-        right: 100px;
+        right: 130px;
         top: -20px;
     }
 }
 
+@media only screen and (max-width: 760px) {
+    .bodyd {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: magenta;
+        text-decoration: none;
+        height: 120vh;
+      }
+    
+      
+    .container {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-bottom: 1.5rem;
+    }
+
+    .passive img {
+        width: 400px;
+    }
+    
+    .second {
+        margin-left: -0.05rem;
+        margin-top: 2rem;
+    }
+    
+    .sibling p {
+        text-align: center;
+        white-space: wrap;
+    }
+
+    .sibling h1{
+     font-size: 20px;
+     white-space: wrap;
+     text-align: center;
+    }
+    
+    .subb{
+        position: relative;
+        width: 40%;
+        margin-top: 1rem;
+        white-space: nowrap;
+        right: -220px;
+    }
+
+    .icons {
+        position: relative;
+        right: -100px;
+        top: -20px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .bodyd {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: magenta;
+        text-decoration: none;
+        height: 130vh;
+      }
+    
+      
+    .container {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding-bottom: 1.5rem;
+    }
+
+    .passive img {
+        width: 400px;
+    }
+    
+    .second {
+        margin-left: -0.05rem;
+        margin-top: 2rem;
+    }
+    
+    .sibling p {
+        text-align: center;
+        white-space: wrap;
+    }
+
+    .sibling h1{
+     font-size: 20px;
+     white-space: wrap;
+     text-align: center;
+    }
+    
+    .subb{
+        position: relative;
+        width: 45%;
+        margin-top: 1rem;
+        white-space: nowrap;
+        right: -220px;
+    }
+
+    .icons {
+        position: relative;
+        right: -100px;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width: 759px) {
+
+    .bodyd{
+        height: 300vh;
+        margin-bottom: 2rem;
+    }
+    .passive img {
+        width: 250px;
+        /* margin-left: -2rem; */
+    }
+
+    .subb{
+        position: relative;
+        width: 45%;
+        margin-top: 1rem;
+        white-space: nowrap;
+        right: -90px;
+    }
+
+    .icons {
+        position: relative;
+        right: 75px;
+        top: -20px;
+    }
+}
+
+
 @media only screen and (max-width: 320px) {
 
     .bodyd{
-        height: 100vh;
+        height: 220vh;
     }
     .passive img {
         width: 270px;
+        margin-left: -2rem;
+    }
+
+    .subb{
+        position: relative;
+        margin-top: 1rem;
+        right: -70px;
+    }
+
+    .icons {
+        position: relative;
+        right: 110px;
+    }
+}
+
+@media only screen and (max-width: 303px) {
+
+    .bodyd{
+        height: 220vh;
+    }
+    .passive img {
+        width: 240px;
+        margin-left: -2rem;
+    }
+
+    .active img {
+        width: 150px;
+        margin-right: 3rem;
     }
 
     .subb{
