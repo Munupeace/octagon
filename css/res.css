@@ -151,7 +151,7 @@ margin-right: 5px;
         box-sizing: border-box;
         background-color: magenta;
         text-decoration: none;
-        height: 120vh;
+        height: 140vh;
       }
     
       
@@ -203,7 +203,7 @@ margin-right: 5px;
         box-sizing: border-box;
         background-color: magenta;
         text-decoration: none;
-        height: 120vh;
+        height: 150vh;
       }
     
       
@@ -256,7 +256,7 @@ margin-right: 5px;
         box-sizing: border-box;
         background-color: magenta;
         text-decoration: none;
-        height: 130vh;
+        height: 110vh;
       }
     
       
@@ -305,7 +305,7 @@ margin-right: 5px;
 @media only screen and (max-width: 759px) {
 
     .bodyd{
-        height: 300vh;
+        height: 230vh;
         margin-bottom: 2rem;
     }
     .passive img {
@@ -332,7 +332,7 @@ margin-right: 5px;
 @media only screen and (max-width: 320px) {
 
     .bodyd{
-        height: 220vh;
+        height: 170vh;
     }
     .passive img {
         width: 270px;
@@ -354,7 +354,7 @@ margin-right: 5px;
 @media only screen and (max-width: 303px) {
 
     .bodyd{
-        height: 220vh;
+        height: 170vh;
     }
     .passive img {
         width: 240px;
