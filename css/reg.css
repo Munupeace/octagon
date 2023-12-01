@@ -136,6 +136,7 @@ font-weight: 400;
         background-image: url(../img/regmob.jpg);
         background-size: cover;
         width: fit-content;
+        overflow: hidden;
     }
 
     .container{
@@ -143,6 +144,7 @@ font-weight: 400;
         flex-direction: column;
         width: fit-content;
         margin-top: -10rem;
+        overflow: hidden;
     }
 
     .code{
@@ -178,3 +180,20 @@ font-weight: 400;
     }
     
 }
+
+/* @media only screen and (max-width: 375px){
+    .bodyd{
+        background-color: hsl(0, 100%, 74%);
+        background-image: url(../img/regmob.jpg);
+        background-size: cover;
+        width: fit-content;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-top: -10rem;
+    }
+
+} */
