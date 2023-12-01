@@ -203,7 +203,7 @@ margin-right: 5px;
         box-sizing: border-box;
         background-color: magenta;
         text-decoration: none;
-        height: 150vh;
+        /* height: 150vh; */
       }
     
       
@@ -305,8 +305,9 @@ margin-right: 5px;
 @media only screen and (max-width: 759px) {
 
     .bodyd{
-        height: 230vh;
-        margin-bottom: 2rem;
+        height: 100%;
+        background-color: magenta;
+        /* margin-bottom: 2rem; */
     }
     .passive img {
         width: 250px;
@@ -329,10 +330,65 @@ margin-right: 5px;
 }
 
 
+
+@media only screen and (max-width: 770px) {
+
+    .bodyd{
+        height: 100%;
+        background-color: magenta;
+    }
+    .container{
+        height: 100%;
+    }
+    .passive img {
+        width: 270px;
+        margin-left: -2rem;
+    }
+
+    .subb{
+        position: relative;
+        margin-top: 1rem;
+        right: -70px;
+    }
+
+    .icons {
+        position: relative;
+        right: 110px;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+    .bodyd{
+        height: 100%;
+        background-color: magenta;
+    }
+    .container{
+        height: 100%;
+    }
+    .passive img {
+        width: 270px;
+        margin-left: -2rem;
+    }
+
+    .subb{
+        position: relative;
+        margin-top: 1rem;
+        right: -70px;
+    }
+
+    .icons {
+        position: relative;
+        right: 110px;
+    }
+}
 @media only screen and (max-width: 320px) {
 
     .bodyd{
-        height: 170vh;
+        height: 100%;
+        background-color: magenta;
+    }
+    .container{
+        height: 100%;
     }
     .passive img {
         width: 270px;

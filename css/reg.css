@@ -23,16 +23,24 @@
 
 
 .code{
-    text-align: center;
-    margin-left: 10rem;
+    margin-left: 3.5rem;
     margin-top: 10.5rem;
     line-height: 2rem;
-    /* white-space: nowrap; */
+}
+
+.code p{
+    white-space: nowrap;
 }
 
 
 .code h1{
     text-align: left;
+}
+
+.second {
+    margin-right: 2rem;
+    margin-left: 5rem;
+    width: 50%;
 }
 
 .sibling{
@@ -41,6 +49,10 @@
     padding: 1px;
     text-align: center;
 
+}
+
+.sibling h2 {
+    font-size: 16px;
 }
 
 
@@ -86,182 +98,83 @@ font-size: small;
 font-weight: 400;
 }
 
-@media only screen and (max-width:1000px) {
-.second {
-    margin-top: 1.2rem;
-    margin-bottom: 2.5rem;
-    margin-right: 1.5rem;
-}
-
-
-}
-
-
-@media only screen and (max-width:760px) {
-    .bodyd{
-        background-image: url(../img/regmob.jpg);
-        background-color: hsl(0, 100%, 74%); 
-        background-size: cover;
-        padding-bottom: 8rem;
-    }
-
+@media only screen and (max-width: 768px){
     .container{
-    display: flex;
-    flex-direction: column;   
-    }
-    
-    .code
-    {
-        padding-left: 2rem;
-        margin: auto;
-        
-    }
-.second{
-    margin: auto;
-    width: 350px;
-    text-align: center;
-    height: 500px;
-}
+        color: white;
+        flex-direction: column;
+        display: flex;
+        margin-top: -7rem;
+     }  
 
-.subb{
-    width: 300px;
-}
-}
+     .second {
+        width: 75%;
+        align-self: center;   
+     }
 
+     .formm {
+        padding-bottom: 30px;
+        padding-top: 30px;
+     }
 
-@media only screen and (max-width: 540px) {
+     .code {
+        text-align: center;
+     }
+
+     .code h1 {
+        text-align: center;
+     }
     .code p {
-        font-size: 25px;
-    }
-    .code h1 {
-        line-height: 2.2rem;
-    }
-    }
-
-
-@media only screen and (max-width: 412px) {
-
-    .code h1 {
-        margin-left: 2rem;
-    }
-
-}
-
-
-
-
-@media only screen and (max-width:360px) {
-    .bodyd{
-        background-image: url(../img/regmob.jpg);
-        background-color: hsl(0, 100%, 74%); 
-        background-size: cover;
-        padding-bottom: 8rem;
-    }
-
-    .container{
-    display: flex;
-    flex-direction: column;   
-    }
-    
-    .code
-    {
-        padding-left: 2rem;
-        margin: auto;
-    }
-
-
-    .sibling h2 {
-        white-space: nowrap;
-        font-size: 15px;
-        padding: 3px;
-    }
-
-.second{
-    margin: auto;
-    width: 300px;
-    text-align: center;
-    height: 500px;
-    padding: 15px;
-}
-
-.subb{
-    width: 200px;
-}
-
-
-}
-    
-
-@media only screen and (max-width:320px) {
-    .bodyd{
-        background-image: url(../img/regmob.jpg);
-        background-color: hsl(0, 100%, 74%); 
-        background-size: cover;
-        padding-bottom: 8rem;
-    }
-
-    .container{
-    display: flex;
-    flex-direction: column;   
-    }
-    
-    .code
-    {
-        padding-left: 2rem;
-        margin: auto;
-        /* text-align: center; */
-        
-        
-    }
-
-   .code h1 {
-    font-size: 19px;
-   }  
-   
-   .code p {
-    font-size: 14px;
-   }
-
-
-    .sibling h2 {
-        white-space: nowrap;
-        font-size: 15px;
-        padding: 3px;
-    }
-
-.second{
-    margin: auto;
-    width: 250px;
-    text-align: center;
-    height: 500px;
-    padding: 15px;
-}
-
-.subb{
-    width: 200px;
-}
-
-
-}
-
-@media only screen and (max-width: 280px) {
-    .code p {
+        word-wrap: break-word;
         font-size: 16px;
     }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .bodyd{
+        background-color: hsl(0, 100%, 74%);
+        background-image: url(../img/regmob.jpg);
+        background-size: cover;
+        width: fit-content;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-top: -10rem;
+    }
+
+    .code{
+        text-align: center;
+    }
 
     .code h1 {
-        line-height: 2.2rem;
         font-size: 19px;
-        margin-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .code p{
+       font-size: 16px;
+       padding-right: 1.6rem;
+    }
+
+    .sibling h2 {
+        white-space: wrap;
+        font-size: 15px;
+        padding: 2px;
     }
 
     .second {
-        width: 220px;
+        margin: 0;
+        width: 350px;
+        text-align: center;
+        height: 500px;
+        padding: 15px;
     }
 
     .subb{
-        width: 190px;
-        font-size: 14px;
+        width: 200px;
     }
-    }
-
+    
+}
