@@ -130,35 +130,42 @@ font-weight: 400;
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 400px) {
     .bodyd{
         background-color: hsl(0, 100%, 74%);
         background-image: url(../img/regmob.jpg);
         background-size: cover;
-        width: fit-content;
-        overflow: hidden;
+        width: calc(100% + 36rem);
+        border: 2px solid green;
+        
     }
-
+    
     .container{
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
-        width: fit-content;
+        width: 100%;
         margin-top: -10rem;
-        overflow: hidden;
+        
     }
 
     .code{
-        text-align: center;
+        width: 100%;
+        /* text-align: center; */
     }
 
     .code h1 {
         font-size: 19px;
-        padding-right: 1rem;
+        /* padding-right: 1rem; */
     }
 
     .code p{
        font-size: 16px;
-       padding-right: 1.6rem;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       /* padding-right: 1.6rem; */
     }
 
     .sibling h2 {
